@@ -1,0 +1,53 @@
+[
+    {
+        "desc" : "姓名+手机号+工号",
+        "body" : {
+            "username" : "小猪佩奇",
+            "mobile": "15912333399",
+            "workNumber": "22"
+        },
+        "expect" : {
+            "status_code" : 200,
+            "success" : true,
+            "code" : 10000,
+            "message" : "操作成功！"
+        }
+    },
+
+    {
+        "desc" : "姓名+手机号+工号+聘用形式",
+        "body" : {
+            "username" : "小猪佩奇",
+            "mobile": "15918119999",
+            "workNumber": "22",
+            "formOfEmployment" : 1
+        },
+        "expect" : {
+            "status_code" : 200,
+            "success" : true,
+            "code" : 10000,
+            "message" : "操作成功！"
+        }
+    },
+
+    {
+        "desc" : "全部参数",
+        "body" : {
+            "username" : "小猪佩奇",
+            "mobile": "15998889999",
+            "workNumber": "22",
+            "formOfEmployment" : 1,
+            "timeOfEntry":"2022-04-01",
+            "departmentName":"人事部门",
+            "departmentId":"1514178739884359680",
+            "correctionTime":"2022-04-29T16:00:00.000Z"
+
+        },
+        "expect" : {
+            "status_code" : 200,
+            "success":true,
+            "code":10000,
+            "message":"操作成功！"
+        }
+    }
+]

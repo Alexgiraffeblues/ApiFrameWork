@@ -1,0 +1,15 @@
+[
+    {
+        "desc" : "添加测试_01",
+        "body" : {
+            "name" : "软件测试部",
+            "code" : "007"
+        },
+        "expect" : {
+            "status_code" : 200,
+            "success" : true,
+            "code" : 10000,
+            "message" : "操作成功！"
+        }
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "desc" : "修改测试_01",
+        "body" : {
+            "name" : "后端开发部",
+            "code" : "2000718"
+        },
+        "expect" : {
+            "status_code" : 200,
+            "success" : true,
+            "code" : 10000,
+            "message" : "操作成功！"
+        }
+    }
+]
