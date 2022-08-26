@@ -2,7 +2,7 @@
     {
         "desc" : "注册成功",
         "body" : {
-            "username" : "18988717188",
+            "username" : "18988111188",
             "verify_code" : "8888",
             "password" : "123456",
             "password2" : "123456"
@@ -17,7 +17,7 @@
     {
         "desc" : "账号（手机号）已存在",
         "body" : {
-            "username" : "18988717188",
+            "username" : "18988111188",
             "verify_code" : "8888",
             "password" : "123456",
             "password2" : "123456"
@@ -32,7 +32,7 @@
     {
         "desc" : "两次输入密码不一致",
         "body" : {
-            "username" : "18988727288",
+            "username" : "18988767188",
             "verify_code" : "8888",
             "password" : "123456",
             "password2" : "123123"
